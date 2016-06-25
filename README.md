@@ -1,7 +1,9 @@
 DESCRIPTION:
 This is the python code accompanying the paper:
 ```
-Shankar Vembu, Sandra Zilles. Interactive Learning from Multiple Noisy Labels. In Proceedings of the European Conference on Machine Learning and Principles and Practice of Knowledge Discovery, 2016.
+Shankar Vembu, Sandra Zilles. Interactive Learning from Multiple Noisy Labels. 
+In Proceedings of the European Conference on Machine Learning and 
+Principles and Practice of Knowledge Discovery, 2016.
 ```
 
 DEPENDENCIES:
