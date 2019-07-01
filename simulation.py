@@ -1,7 +1,7 @@
 from numpy import *
 from numpy.random import randn, seed
 from scipy.stats import bernoulli
-import experiment as exp
+import algo
 import numpy as np
 
 
@@ -80,7 +80,7 @@ def sim_t(X, y, z, p=1):
     # noise_level = 1.# higher values result in low disagreement
     # first train a linear model, obtain scores
     cparam = 2 ** array([-14., -12., -10., -8., -6., -4., -2., -1., 0., 1., 2., 4., 6., 8., 10., 12., 14.])
-    model = exp.train(X, y, 1. / cparam)
+    model = algo.train(X, y, 1. / cparam)
     f = model.predict(X)
     f = f * 1. / max(abs(f))  # scale to [-10, 10]
     f = 10 * f  # scores closer to +/-10 will get a prob 1
