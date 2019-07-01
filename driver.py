@@ -65,7 +65,7 @@ def run(m, n, alpha=2, p=1):
 
 
 if __name__ == "__main__":
-
+    seed(1)
     alpha = int(sys.argv[1])  # example reweighting parameter
     p = int(sys.argv[2])  # noise parameter
 
